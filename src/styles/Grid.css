@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .grid::before,
+  .grid::after {
+    /* content: ''; */
+    flex: 1;
+  }
+
+  /* div.grid::before{
+    content: none;
+  }
+
+  div.grid::before{
+    content: '';
+    display: block;
+    height: 0;
+    margin: 0;
+    padding: 0;
+  } */
